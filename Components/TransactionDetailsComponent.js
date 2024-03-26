@@ -6,14 +6,12 @@ const TransactionDetailsComponent = ({ route }) => {
 
   return (
     <View style={styles.container}>
-      {/* Section for Transaction Name, Amount, and Loc */}
       <View style={styles.section}>
         <Text style={styles.amount}>{transaction.amount}</Text>
         <Text>{transaction.name}</Text>
         <Text>{transaction.loc}</Text>
       </View>
 
-      {/* Section for Transaction Date */}
       <View style={styles.dateSection}>
         <Text style={styles.label}>Transaction Date:</Text>
         <Text>{transaction.date}</Text>
