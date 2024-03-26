@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#023E8A', // Blue color
+    color: '#023E8A', 
     marginBottom: 5,
   },
   title: {
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   },
   value: {
     fontSize: 16,
-    color: '#023E8A', // Blue color
+    color: '#023E8A', 
   },
   transactionContainer: {
     flexDirection: 'row',
@@ -91,11 +91,11 @@ const styles = StyleSheet.create({
   },
   transactionAmount: {
     fontSize: 16,
-    color: '#023E8A', // Blue color
+    color: '#023E8A',
   },
   separator: {
     height: 1,
-    backgroundColor: '#023E8A', // Blue color
+    backgroundColor: '#023E8A', 
     marginVertical: 5,
   },
 });
